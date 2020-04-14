@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+body {
+    margin: 0;
+    margin-top: 0;
+    font-family: sans-serif;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20px;
+    background-color: #2C2C2C;
+}
+
+header * {
+    display: inline;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color:#696969;
+}
+
+#hero h1 {
+    font-size: 7em;
+    font-family: sans-serif;
+    height: auto;
+    line-height: 20px;
+    color:#696969;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+
+section h {
+    font-size: 2em;
+}
+
+section h2 {
+    font-size: 5em;
+    color: black;
+}
+
+section h3 {
+    font-size: 4em;
+    color: black;
+}
+
+header a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+a {
+    color: cadetblue;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+section a {
+    text-decoration: none;
+    color: grey;
+}
+
+section a:hover {
+    color: white;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(58, 58, 58, 0.75),rgba(58, 58, 58, 0.75)), url('https://www.webdesigndev.com/wp-content/uploads/2018/04/11-3px-tile-Free-Dark-Background.jpg');
+}
+
+#about {
+    color: darkgrey;
+    background-image: linear-gradient(rgba(58, 58, 58, 0.75),rgba(58, 58, 58, 0.75)), url('https://static.vecteezy.com/system/resources/previews/000/151/909/original/number-coding-matrix-background-free-vector.jpg');
+}
+
+#contact {
+    color: darkgrey;
+    background-image: linear-gradient(rgba(58, 58, 58, 0.75),rgba(58, 58, 58, 0.75)), url('https://www.webdesigndev.com/wp-content/uploads/2018/04/11-3px-tile-Free-Dark-Background.jpg');
+}
